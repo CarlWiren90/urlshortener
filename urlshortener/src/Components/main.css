@@ -21,3 +21,17 @@
 .infotxt {
     width: 600px;
 }
+
+.arrow1 {
+    margin: 0;
+    padding: 0;
+    margin-top: -15px;
+}
+
+.arrow2 {
+    margin-top: -70px;
+}
+
+.arrow3 {
+    margin-top: -55px;
+}
