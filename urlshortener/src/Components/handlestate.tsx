@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Userinput from './userinput.tsx';
 import ShortenButton from './shortenbutton.tsx';
+import './handlestate.css'
 
 const HandleState = () => {
     const[userInput, setUserInput] = useState<string>('');
@@ -35,10 +36,15 @@ const HandleState = () => {
     }
 
     return (
-        <div>
+        <>
+        <div className='inputs'>
             <Userinput inputChange={handleUserInput}/>
             <ShortenButton onClick={GetData}/>
         </div>
+        <div className='output'>
+            {link}
+        </div>
+        </>
     );
 }
 

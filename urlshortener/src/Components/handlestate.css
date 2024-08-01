@@ -1,0 +1,9 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.output {
+    margin-top: 20px;
+    font-size: 30px;
+}
